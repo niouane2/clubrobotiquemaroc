@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de robotique.</title>
+    <link rel="icon" href="favicon/favicon.ico" type="image/icon">
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers votre fichier CSS -->
+</head>
+<body>
+
+<header class="header">
+    <h1 class="titre">Club de robotique de l'école Arena</h1>
+    <img src="img/img1.png" alt="Logo du club de robotique" class="logo">
+</header>
+
+<main class="main-content">
+    <section class="section1">
+        <p class="p1">Bienvenue dans le club de robotique de l'école Arena ! Sous la direction inspirante du professeur Oussama, nous explorons les merveilles de la robotique et de la technologie. Rejoignez-nous dans notre aventure passionnante pour créer, apprendre et innover.</p>
+        <a href="dons.html" class="btn">nous soutenir avec vos dons</a>
+    </section>
+
+    <section class="section2">
+        <h2 class="section-title">À propos de nous</h2>
+        <p class="p2">Découvrez qui nous sommes, notre mission et notre engagement envers l'apprentissage et l'innovation.</p>
+        <a href="menu.html" class="btn btn-secondary">En savoir plus sur nous</a>
+    </section>
+
+    <section class="section3">
+        <h2 class="section-title">Nos projets</h2>
+        <p class="p2">Explorez nos projets précédents et actuels, de la conception à la réalisation, et voyez comment nous repoussons les limites de la technologie.</p>
+        <a href="nouvelle_page2.html" class="btn">nos projets</a>
+    </section>
+
+    <section class="section4">
+        <h2 class="section-title">Foire au question.</h2>
+        <p class="p2">La F.A.Q, tel un guide attentif, éclaire les chemins des curieux en répondant aux questions les plus fréquentes avec clarté et concision.</p>
+        <a href="jeux.html" class="btn">F.A.Q</a>
+    </section>
+
+    <section class="section4">
+        <h2 class="section-title">méthode de robotique</h2>
+        <p class="p2">notre méthode de travail à travers dans ce club..</p>
+        <a href="nouvelle_page.html" class="btn">notre méthode de travail </a>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="social-links">
+        <a href="https://www.instagram.com/arena.school.arena?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+            <img src="img/instagrame.jpeg" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100075791637264" target="_blank">
+            <img src="img/facebook.jpeg" alt="Facebook" class="social-icon">
+        </a>
+        <a href="https://maps.app.goo.gl/QmuEXseRSAFyS7U27" target="_blank">
+            <img src="img/map.jpeg" alt="Google Maps" class="social-icon">
+        </a>
+        <a href="https://www.instagram.com/club_5g_robotique?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+            <img src="img/instagrame2.jpeg" alt="Instagram" class="social-icon">
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
+
+<style>
+    .logo{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Pour conserver les proportions de l'image */
+
+    }
+    /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0c29;
+    background-image: linear-gradient(45deg, #085505, #c26c6c, rgb(44, 40, 40));
+    animation: gradientAnimation 20s ease infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titre {
+    font-family: 'Arial Black', sans-serif;
+    color: red;
+}
+
+.logo {
+
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Pour conserver les proportions de l'image */
+}
+
+
+.main-content {
+    max-width: 800px;
+    margin-top: 30px;
+}
+
+.section1, .section2, .section3 {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    color: #4CAF50;
+}
+
+.p1, .p2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn, .btn-secondary {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.btn:hover, .btn-secondary:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 20px 0;
+    background-color: #333;
+    text-align: center;
+    width: 100%;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 45px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+</style>
